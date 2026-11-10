@@ -1,0 +1,28 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+backend/.pytest_cache/
+backend/data/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+*.tsbuildinfo
+
+# Environment and secrets
+backend/.env
+frontend/.env.local
+*.key
+!backend/.env.example
+!frontend/.env.example
+
+# Logs and OS files
+*.log
+logs/
+.adi.pids
+.DS_Store
+Thumbs.db
